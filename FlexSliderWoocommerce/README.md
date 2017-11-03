@@ -32,7 +32,7 @@ wp-content/plugins/variation-master/assests/js/template/single/ced-vm-single-gal
 Replace this file what i have provided in the folder
 
 
-# Happy Codding
+# Happy Coding
 
 
 
