@@ -4,6 +4,7 @@
 Add these files which I mentioned in code
 
 ## Step 2 Add this snipet in footer
+```javascript
 <!-- FlexSlider -->
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/flexslider/css/flexslider.css" type="text/css" media="screen" />
 <script defer src="<?php echo get_template_directory_uri(); ?>/flexslider/js/jquery.flexslider.js"></script>
@@ -20,6 +21,7 @@ jQuery('.woocommerce-product-gallery').flexslider({
 	}
 });
 }
+```
 
 ## Step 3
 Install the pluign
