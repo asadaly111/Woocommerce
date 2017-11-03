@@ -29,6 +29,7 @@ WooCommerce Variation Master
 
 ### Step 4
 wp-content/plugins/variation-master/assests/js/template/single/ced-vm-single-gallery.js?ver=1.2.0
+
 Replace this file what i have provided in the folder
 
 
