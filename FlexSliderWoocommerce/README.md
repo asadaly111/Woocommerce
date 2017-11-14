@@ -1,4 +1,6 @@
-## First thing first - (You should have to use woocommerce default slider in single page.)
+##Q. WooCommerce Variation Master is not working?
+
+#### Here is the solution (You should have to use woocommerce default slider in product single page.)
 
 ### Step 1
 Add these files which I mentioned in code
