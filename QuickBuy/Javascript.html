@@ -1,3 +1,96 @@
+<div class="loadfunc hide">
+<img src="<?php echo site_url();  ?>/sa/loader1.gif" alt="" class="center-block">
+</div>
+
+<a class="btn btn-primary hide quickbuybutnopen" data-toggle="modal" href='#modal-id'>Trigger modal</a>
+<div class="modal fade" id="modal-id">
+    <div class="modal-dialog">
+        <div class="modal-content modalextraclass">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title text-center">QUICK BUY</h4>
+            </div>
+            <div class="modal-body">
+<form method="post" class="order-form" action="<?php echo site_url(); ?>/script.php">
+<div class="row">
+    <div class="col-md-12" style="padding: 0">
+        <div class="col-md-3">
+            <img src="" id="fetchcontent1" alt="" width="100px" height="100px">
+        </div>
+        <div class="col-md-9" id="fetchcontent2">
+        </div>
+<div class="col-md-9">
+    <div class="form-group quick_buy_input">
+        <select id="dealLimit" name="qdeal_qty" class="form-control input-sm" required="">
+            <option value="1">
+                1 Deal quantity
+            </option>
+            <option value="2">
+                2 Deal quantity
+            </option>
+            <option value="3">
+                3 Deal quantity
+            </option>
+            <option value="4">
+                4 Deal quantity
+            </option>
+            <option value="5">
+                5 Deal quantity
+            </option>
+            <option value="6">
+                6 Deal quantity
+            </option>
+            <option value="7">
+                7 Deal quantity
+            </option>
+            <option value="8">
+                8 Deal quantity
+            </option>
+            <option value="9">
+                9 Deal quantity
+            </option>
+            <option value="10">
+                10 Deal quantity
+            </option>
+        </select>
+    </div>
+        </div>
+    </div>
+</div>
+<br>
+    <input type="hidden" name="proid">
+    <input type="hidden" name="pro">
+    <input type="hidden" name="price">
+    <div class="form-group quick_buy_input">
+        <input type="text" name="username" class="form-control input-sm" id="username" placeholder="Full Name -  نام" required="">
+    </div>
+    <div class="form-group quick_buy_input">
+        <input type="email" name="email" class="form-control input-sm" id="email" placeholder="Email Address -  ای میل">
+    </div>
+    <div class="form-group quick_buy_input">
+        <input type="tel" name="phone" class="form-control input-sm" id="phone" data-mask="(___) ___-____" placeholder="Mobile Number -  موبائل فون کانمبر" required="">
+    </div>
+    <div class="form-group quick_buy_input">
+        <textarea name="ship_address" class="form-control input-sm" id="ship_address" rows="1" placeholder="Address -  مکمل پتا " required=""></textarea>
+    </div>
+    <div class="form-group quick_buy_input">
+        <textarea name="remarks" class="form-control input-sm" id="remarks" rows="2" placeholder="Other Instructions -  دیگر ہدایات"></textarea>
+    </div>
+    <div class="form-group quick_buy_input">
+        <input autocomplete="off" type="text" class="form-control city_name" id="city_name" name="city_name" placeholder="City- شہر کا انتخاب کریں" required="">
+    </div>
+
+    <input type="hidden" name="order-complete" value="1">
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary fobtn"><img src="<?php echo get_template_directory_uri(); ?>/images/quickbuy-icon.png">Quick Buy</button>
+            </div>
+
+</form>
+
+        </div>
+    </div>
+</div>
 <link rel="stylesheet" type="text/css" href="http://www.ourstore.com.pk/sa/sweetalert.css">
 <script type="text/javascript" src="http://www.ourstore.com.pk/sa/sweetalert.min.js"></script>
 <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
