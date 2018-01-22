@@ -1,0 +1,13 @@
+// add custom page
+add_action( 'admin_menu', 'my_admin_menu' );
+
+function my_admin_menu() {
+    add_menu_page( 'Order Export', 'Order Export', 'manage_options', 'orders', 'mydisplaypage', 'dashicons-list-view', 35  );
+}
+
+function mydisplaypage($value='')
+{
+    require get_template_directory() . '/assets/request.php';
+}
+
+ require get_template_directory() . '/assets/posttype.php';
